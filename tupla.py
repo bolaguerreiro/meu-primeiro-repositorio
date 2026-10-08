@@ -1,0 +1,7 @@
+tupla = ("maca", "banana", "laranja", "uva", "abacaxi")
+print(tupla)
+lista = list(tupla)
+lista.append("manga")
+print(lista)
+tupla = tuple(lista)
+print(tupla)    
