@@ -1,0 +1,7 @@
+tupla = ("Segunda", "terça", "quarta", "quinta", "sexta")
+print(tupla)
+lista = list(tupla)
+lista.append("sabado")
+print(lista)
+tupla = tuple(lista)
+print(tupla)    
