@@ -1,4 +1,6 @@
-pessoa = {"nome": "Ricardo", "cidade": "São José", "profissao": "administrativo"}
+pessoa = {"nome": "Ricardo", "cidade": "Sao Jose", "profissao": "administrativo"}
 print(pessoa)
 pessoa.update({"idade": 61})
 print(pessoa)   
+for chave, valor in pessoa.items():
+    print(chave, valor)
